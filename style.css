@@ -24,12 +24,19 @@ hr{
   border-width: 5px;
   max-width: 65px;
   opacity: 1;
+  box-shadow: 2px 2px #404040;
+}
+.short {
+	max-width: 10px;
+	box-shadow: 2px 2px #404040;
 }
 .btn {
 	font-weight: 700;
 	color: #47476b;
 	border-radius: 300px;
 	text-transform: uppercase;
+	box-shadow: 2px 2px #404040;
+	text-shadow: 1px 1px #999999;
 
 }
 .btn-primary {
@@ -37,9 +44,12 @@ hr{
 	border-color: #ff794d;
 }
 .btn-primary:hover {
-background-color: #cc5200;
-border-color: #cc5200;
+background-color: #ff794d;
+border-color: #ff794d;
 border-width: 5px;
+color: #47476b;
+text-shadow: 2px 2px #999999;
+box-shadow: 5px 5px #404040;
 }
 .btn-xl {
 	padding: 1rem 2rem;
