@@ -12,11 +12,11 @@ html {
 h1{
 	font-size: 4rem;
 	color: #dc3545;
-	text-shadow: 2px 2px #47476b;
+	text-shadow: 2px 2px #404040;
 }
 h2{
 	color: #47476b;
-	text-shadow: 2px 2px #ffffff;
+	text-shadow: 1.5px 1.5px #999999;
 }
 hr{
   border: 10px solid #ff794d;
